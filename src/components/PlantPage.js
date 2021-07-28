@@ -14,14 +14,20 @@ function PlantPage({ plants, setPlants }) {
     })
   }
 
+  const searchedPlants = plants.filter((plant) => 
+    plant.name.toLowerCase().includes(input.toLowerCase()))
+
   return (
     <main>
       <NewPlantForm 
         addPlant={addPlant}
       />
-      <Search />
+      <Search 
+        input={input}
+        setInput={setInput}
+      />
       <PlantList 
-        plants={plants} 
+        plants={searchedPlants} 
       />
     </main>
   );

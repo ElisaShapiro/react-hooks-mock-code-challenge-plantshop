@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function NewPlantForm({ addPlant }) {
-  const  [name, setName] = useState("")
+  const [name, setName] = useState("")
   const [image, setImage] = useState("")
   const [price, setPrice] = useState("") 
   
