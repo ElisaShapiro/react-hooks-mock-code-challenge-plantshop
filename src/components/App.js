@@ -8,13 +8,16 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:6001/plants")
     .then(response => response.json())
-    .then(plantData => console.log(plantData))
-  })
+    .then(plantData => setPlants(plantData))
+  }, []);
 
   return (
     <div className="app">
       <Header />
-      <PlantPage />
+      <PlantPage 
+        plants={plants}
+        setPlants={setPlants}
+      />
     </div>
   );
 }
