@@ -17,6 +17,14 @@ function PlantPage({ plants, setPlants }) {
   const searchedPlants = plants.filter((plant) => 
     plant.name.toLowerCase().includes(input.toLowerCase()))
 
+  function handleDeletePlant(id){
+    let deletePlant = plants.filter((plant) => {
+    if (plant.id !== id)
+      return true
+    }) 
+    setPlants(deletePlant)
+  }
+  
   return (
     <main>
       <NewPlantForm 
@@ -28,6 +36,7 @@ function PlantPage({ plants, setPlants }) {
       />
       <PlantList 
         plants={searchedPlants} 
+        handleDeletePlant={handleDeletePlant}
       />
     </main>
   );

@@ -43,15 +43,27 @@
       "price": 55
     },
     {
-      "name": "Potato2",
-      "image": "https://static.seattletimes.com/wp-content/uploads/2021/02/02192021_grow7_090114-1536x1120.jpg",
-      "price": "0.06",
-      "id": 9
-    },
-    {
       "name": "Oddish",
       "image": "https://lh3.googleusercontent.com/-jgEdfRC2_MY/Vy4EaiHJB1I/AAAAAAAAGWo/S4sD8IN4t9MUjCCWHeMlDmmPwWEobSgkgCCo/s300/Screen%2Bshot%2B2016-05-07%2Bat%2B10.48.43%2BAM.png?refresh=900&resize_h=NaN&resize_w=NaN",
       "price": "43",
+      "id": 8
+    },
+    {
+      "name": "Oddish3",
+      "image": "https://lh3.googleusercontent.com/-jgEdfRC2_MY/Vy4EaiHJB1I/AAAAAAAAGWo/S4sD8IN4t9MUjCCWHeMlDmmPwWEobSgkgCCo/s300/Screen%2Bshot%2B2016-05-07%2Bat%2B10.48.43%2BAM.png?refresh=900&resize_h=NaN&resize_w=NaN",
+      "price": "43",
+      "id": 10
+    },
+    {
+      "name": "Potato",
+      "image": "https://static.seattletimes.com/wp-content/uploads/2021/02/02192021_grow7_090114-2048x1493.jpg",
+      "price": "7",
+      "id": 11
+    },
+    {
+      "name": "Potato2",
+      "image": "https://static.seattletimes.com/wp-content/uploads/2021/02/02192021_grow7_090114-2048x1493.jpg",
+      "price": "7",
       "id": 12
     }
   ]
