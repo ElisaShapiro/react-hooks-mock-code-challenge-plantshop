@@ -41,12 +41,6 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
-    },
-    {
-      "name": "Potato2",
-      "image": "https://static.seattletimes.com/wp-content/uploads/2021/02/02192021_grow7_090114-1536x1120.jpg",
-      "price": "0.06",
-      "id": 9
     }
   ]
 }
